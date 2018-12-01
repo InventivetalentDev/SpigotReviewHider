@@ -1,5 +1,6 @@
 {
   "name": "SpigotMC Review Hider",
+  "short_name": "ReviewHider",
   "version": "1.0",
   "description": "Gets rid of the review section & ratings on SpigotMC.org!",
   "author": "Haylee Schäfer (inventivetalent)",
