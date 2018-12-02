@@ -1,7 +1,7 @@
 {
   "name": "SpigotMC Review Hider",
   "short_name": "ReviewHider",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Gets rid of the review section & ratings on SpigotMC.org!",
   "author": "Haylee Schäfer (inventivetalent)",
   "manifest_version": 2,
@@ -10,6 +10,9 @@
     "128": "img/ReviewHider-x128.png",
     "256": "img/ReviewHider-x256.png"
   },
+  "permissions": [
+    "storage"
+  ],
   "content_scripts": [
     {
       "matches": [
@@ -20,5 +23,6 @@
       ],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "options_page": "options.html"
 }
